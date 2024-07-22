@@ -13,37 +13,37 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
     <header class="navbar">
-        <img class="expert-logo" src="public/assets/icon/Logo Ekspert.svg" alt="Ekspert Profilaktyka">
+
+        <a href="http://127.0.0.1:3000/ekspertprofilaktyka.html#"><img class="expert-logo"
+                src="public/assets/icon/Logo Ekspert.svg" alt="Ekspert Profilaktyka"></a>
         <nav class="links">
             <ul>
-                <li><a href="https://ekspertprofilaktyka.pl/">O nas</a>
-                </li>
+                <li><a href="http://127.0.0.1:3000/onas.html">O nas</a>
                 <li>
-                    <a href="./">Warsztaty i szkolenia</a>
-                    <i>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g id="keyboard_arrow_down">
-                                <mask id="mask0_150_752" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
-                                    width="24" height="24">
-                                    <rect id="Bounding box" width="24" height="24" fill="#D9D9D9" />
-                                </mask>
-                                <g mask="url(#mask0_150_752)">
-                                    <path id="keyboard_arrow_down_2"
-                                        d="M12 14.975C11.8667 14.975 11.7417 14.9542 11.625 14.9125C11.5083 14.8708 11.4 14.8 11.3 14.7L6.7 10.1C6.51667 9.91667 6.425 9.68333 6.425 9.4C6.425 9.11667 6.51667 8.88333 6.7 8.7C6.88334 8.51667 7.11667 8.425 7.4 8.425C7.68334 8.425 7.91667 8.51667 8.1 8.7L12 12.6L15.9 8.7C16.0833 8.51667 16.3167 8.425 16.6 8.425C16.8833 8.425 17.1167 8.51667 17.3 8.7C17.4833 8.88333 17.575 9.11667 17.575 9.4C17.575 9.68333 17.4833 9.91667 17.3 10.1L12.7 14.7C12.6 14.8 12.4917 14.8708 12.375 14.9125C12.2583 14.9542 12.1333 14.975 12 14.975Z"
-                                        fill="black" />
-                                </g>
-                            </g>
-                        </svg>
-                    </i>
-                    </a>
+                    <div class="dropdown">
+                        <a class="dropbtn">Warsztaty i szkolenia
+                            <i class="material-icons">keyboard_arrow_down</i>
+                        </a> </a>
+                        <div class="dropdown-content">
+                            <a href="#">Warsztaty dla uczniów</a>
+                            <a href="#">Szkolenia dla uczniów</a>
+                            <a href="#">Szkolenia dla uczniów</a>
+                            <a href="">Szkolenia autorskie</a>
+                        </div>
+                    </div>
                 </li>
+
                 <li><a href="./">Dzień Profilaktyka</a></li>
-                <li><a href="./">Kontakt</a></li>
+                <li><a href="http://127.0.0.1:3000/kontakt.html">Kontakt</a></li>
+                <li><a href="https://ekspertprofilaktyka.pl/">strona aktualna</a></li>
+
             </ul>
+
         </nav>
     </header>
     <main>
@@ -58,7 +58,7 @@
                             sobie z aktualnie dotykającymi ich trudnościami oraz wyposażyć w umiejętności, które pozwolą
                             im
                             w późniejszym życiu poradzić sobie z różnymi zagrożeniami i pokusami.</p>
-                        <div class="cta-button"><button>Kontakt z nami</button><button id="secondary">Dzień
+                        <div class="cta-button"><button>Kontakt z nami</button><button id="button-secondary">Dzień
                                 profilaktyka</button>
                         </div>
                     </article>
@@ -66,22 +66,12 @@
                         <h3 class="semibold">Co nas wyróżnia</h3>
                         <ul>
                             <li class="point">
-                                <i><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none">
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18Z"
-                                            fill="#00BB29" />
-                                    </svg></i>
+                                <i class="material-icons" id="icons-color-secondary">fiber_manual_record</i>
                                 <p>Tematyka odpowiednia do aktualnych problemów dzieci i młodzieży
                                 </p>
                             </li>
                             <li class="point">
-                                <i><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none">
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18Z"
-                                            fill="#00BB29" />
-                                    </svg></i>
+                                <i class="material-icons" id="icons-color-secondary">fiber_manual_record</i>
                                 <p>Tematyka odpowiednia do aktualnych problemów dzieci i młodzieży
                                 </p>
                             </li>
@@ -94,7 +84,7 @@
         </section>
         <section class="offer-container">
             <header>
-                <h3 class="semibold" id="headline-secondary-color" class="semibold-h3">Eksperci w Działaniu dla dobra
+                <h3 class="semibold">Eksperci w Działaniu dla dobra
                     młodzieży</h3>
                 <p id="body-secondary-color">Kursy dla rodziców uczą skutecznych metod wychowawczych i budowania
                     zdrowych
@@ -102,7 +92,7 @@
             </header>
             <section class="card-container">
                 <div class="card-offer">
-                    <div class="obrazek-card">
+                    <div class="img-card">
                         <!-- obrazek -->
                     </div>
                     <div class="offer">
@@ -112,14 +102,13 @@
                         </p>
                         <button>Sprawdź ofertę</button>
                     </div>
-
                 </div>
                 <div class="card-offer">
-                    <div class="obrazek-card">
+                    <div class="img-card">
                         <!-- obrazek -->
                     </div>
                     <div class="offer">
-                        <h6>Dla uczniów</h6>
+                        <h6 class="semibold">Dla uczniów</h6>
                         <p id="body-secondary-color">Każde dziecko jest dla nas wyjątkowe. Dopasowujemy programy do ich
                             potrzeb i zainteresowań.
                         </p>
@@ -127,11 +116,23 @@
                     </div>
                 </div>
                 <div class="card-offer">
-                    <div class="obrazek-card">
+                    <div class="img-card">
                         <!-- obrazek -->
                     </div>
                     <div class="offer">
-                        <h6>Dla uczniów</h6>
+                        <h6 class="semibold">Dla uczniów</h6>
+                        <p id="body-secondary-color">Każde dziecko jest dla nas wyjątkowe. Dopasowujemy programy do ich
+                            potrzeb i zainteresowań.
+                        </p>
+                        <button>Sprawdź ofertę</button>
+                    </div>
+                </div>
+                <div class="card-offer">
+                    <div class="img-card">
+                        <!-- obrazek -->
+                    </div>
+                    <div class="offer">
+                        <h6 class="semibold">Autroskie szkolenia</h6>
                         <p id="body-secondary-color">Każde dziecko jest dla nas wyjątkowe. Dopasowujemy programy do ich
                             potrzeb i zainteresowań.
                         </p>
@@ -140,10 +141,10 @@
                 </div>
             </section>
         </section>
-        <section class="about-us">
-            <div class="about-us-container">
-                <div class="about-us-box">
-                    <article class="empty-box">Pusto </article>
+        <section class="about-us-container">
+            <div class="about-us-box">
+                <div class="about-us-info">
+                    <article class="empty-box"></article>
                     <article>
                         <h3 class="semibold">Kompletne szkolenia i warsztaty</h3>
                         <p>Nasze warsztaty i szkolenia w sposób całościowy ujmują problemy z jakimi każdego dnia muszą
@@ -158,18 +159,88 @@
                 </div>
             </div>
         </section>
-        <section class="caru">
-            <header>
-                <h3>
-                    Zaugali nam
-                </h3>
-            </header>
-
+        <section class="slider-container">
+            <div class="slider-box">
+                <header>
+                    <h3 class="semibold">
+                        Zaufali nam
+                    </h3>
+                </header>
+                <div class="slider">
+                    <i class="material-icons" id="button-icons-primary">chevron_left</i>
+                    <div class="logo-slider">
+                        <div class="obrazek-card2">
+                            logo
+                        </div>
+                        <div class="obrazek-card2">
+                            logo
+                        </div>
+                        <div class="obrazek-card2">
+                            logo
+                        </div>
+                        <div class="obrazek-card2">
+                            logo
+                        </div>
+                    </div>
+                    <i class="material-icons" id="button-icons-primary">chevron_right</i>
+                </div>
+            </div>
+            <button id="button">
+                <i class="material-icons">keyboard_arrow_up</i>
+                Wróć do góry
+                <i class="material-icons">keyboard_arrow_up</i>
+            </button>
         </section>
     </main>
+    <footer>
+        <div class="footer-logo">
+            <img src="public/assets/icon/Logo Ekspert.svg" alt="">
+            <img src="public/assets/icon/Logo Ekspert.svg" alt="">
 
+        </div>
+        <div class="empty-box"></div>
+        <div class="footer-container">
+            <span>Menu</span>
+            <div class="footer-info">
+                <a href="/onas">O nas</a>
+                <a href="/warsztatyiszkolenia">Warsztaty i szkolenia</a>
+                <a href="/dienprofilaktyka">Dzień Profilaktyka</a>
+                <a href="/kontakt">Kontakt</a>
+            </div>
+        </div>
+        <div class="footer-container">
+            <span>Warsztaty i szkolenia</span>
+            <div class="footer-info">
+                <a href="/warsztatydlauczniow">Warsztaty dla uczniów</a>
+                <a href="/warsztatydlarodzicow">Warsztaty dla rodziców</a>
+                <a href="/warsztatydlakadrypedagogicznej">Warsztaty dla kadry pedagogicznej</a>
+            </div>
+        </div>
+        <div class="footer-container">
+            <span>Kontakt</span>
+            <div class="footer-info">
+                <div class="footer-info" itemtype="https://ekspertprofilaktyka.pl/">
+                    <span itemprop="Ekspert Profilaktyka">Ekspert Profilaktyka</span>
+                    <span itemprop="telephone">
+                        <span>
+                            <a href="tel:+48692919492">+48 692 919 492</a>
+                        </span>
+                    </span>
+                    <span itemprop="email">
+                        <a href="mailto:kontakt@twojafirma.pl">kontakt@twojafirma.pl</a>
+                    </span>
+                    <span itemprop="email">
+                        <a href="mailto:kontakt@twojafirma.pl">kontakt@twojafirma.pl</a>
+                    </span>
 
+                </div>
 
+            </div>
+        </div>
+        </div>
+
+        </div>
+    </footer>
 </body>
 
 </html>

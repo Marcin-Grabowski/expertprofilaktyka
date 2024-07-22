@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <script> src </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekspert Profilaktyka</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="rwd.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<header class="navbar">
+    <a href="http://127.0.0.1:3000/ekspertprofilaktyka.html#"><img class="expert-logo"
+            src="public/assets/icon/Logo Ekspert.svg" alt="Ekspert Profilaktyka"></a>
+    <nav class="links">
+        <ul>
+            <li><a href="http://127.0.0.1:3000/onas.html">O nas</a>
+            <li>
+                <div class="dropdown">
+                    <a class="dropbtn">Warsztaty i szkolenia
+                        <i class="material-icons">keyboard_arrow_down</i>
+                    </a> </a>
+                    <div class="dropdown-content">
+                        <a href="#">Warsztaty dla uczniów</a>
+                        <a href="#">Szkolenia dla uczniów</a>
+                        <a href="#">Szkolenia dla uczniów</a>
+                        <a href="">Szkolenia autorskie</a>
+                    </div>
+                </div>
+            </li>
+
+            <li><a href="./">Dzień Profilaktyka</a></li>
+            <li><a href="http://127.0.0.1:3000/kontakt.html">Kontakt</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+<body class="contact-container">
+    <section class="hero">
+        <div>
+            <div class="empty-box"></div>
+            <article>
+                <h3 class="semibold">Skontaktuj się z nami</h3>
+            </article>
+        </div>
+    </section>
+    <section class="contact">
+        <address>
+            <div>
+                <h6 class="semibold">Ekspert Profilaktyka s.c.</h6>
+                <!-- <p><i class="material-icons">home</i>Grzegórzecka 5, 31-540 Kraków</p>
+                <p>NIP: 123-456-78-99</p>
+                <p>REGON: 213456789</p> -->
+            </div>
+            <ul>
+                <li>
+                    <i class="material-icons">call</i>
+                    <a href="tel:+48123456789">123-456-789</a>
+                </li>
+                <li>
+                    <i class="material-icons">call</i>
+                    <a href="tel:+48123456789">123-456-789</a>
+                </li>
+                <li>
+                    <i class="material-icons">mail</i>
+                    <a href="ekspert.profilaktyka@gmail.com">ekspert.profilaktyka@gmail.com
+                    </a>
+
+                </li>
+            </ul>
+        </address>
+        <aside class="contact-form">
+            <form action="/wyslij-formularz">
+                <!-- <label for="name">Imię Nazwisko </label> -->
+                <div>
+                    <input type="text" id="name" name="name" placeholder="Imię Nazwisko" required>
+                    <input type="text" id="email" name="email" placeholder="Adres e-mail" required>
+                </div>
+                <div>
+                    <input type="text" id="organization" name="organization" placeholder="Nazwa orgranizacji">
+                    <input type="text" id="tel" name="phone" placeholder="Numer telefonu">
+                </div>
+
+                <input type="text" id="subject" name="subject" placeholder="Temat">
+                <textarea name="message" id="message" row="auto">Podaj treść zapytania</textarea>
+
+
+            </form>
+        </aside>
+    </section>
+
+</body>
+<footer>
+    <div class="footer-logo">
+        <img src="public/assets/icon/Logo Ekspert.svg" alt="">
+        <img src="public/assets/icon/Logo Ekspert.svg" alt="">
+
+    </div>
+    <div class="empty-box"></div>
+    <div class="footer-container">
+        <span>Menu</span>
+        <div class="footer-info">
+            <a href="/onas">O nas</a>
+            <a href="/warsztatyiszkolenia">Warsztaty i szkolenia</a>
+            <a href="/dienprofilaktyka">Dzień Profilaktyka</a>
+            <a href="/kontakt">Kontakt</a>
+        </div>
+    </div>
+    <div class="footer-container">
+        <span>Warsztaty i szkolenia</span>
+        <div class="footer-info">
+            <a href="/warsztatydlauczniow">Warsztaty dla uczniów</a>
+            <a href="/warsztatydlarodzicow">Warsztaty dla rodziców</a>
+            <a href="/warsztatydlakadrypedagogicznej">Warsztaty dla kadry pedagogicznej</a>
+        </div>
+    </div>
+    <div class="footer-container">
+        <span>Kontakt</span>
+        <div class="footer-info">
+            <div class="footer-info" itemtype="https://ekspertprofilaktyka.pl/">
+                <span itemprop="Ekspert Profilaktyka">Ekspert Profilaktyka</span>
+                <span itemprop="telephone">
+                    <span>
+                        <a href="tel:+48692919492">+48 692 919 492</a>
+                    </span>
+                </span>
+                <span itemprop="email">
+                    <a href="mailto:kontakt@twojafirma.pl">kontakt@twojafirma.pl</a>
+                </span>
+                <span itemprop="email">
+                    <a href="mailto:kontakt@twojafirma.pl">kontakt@twojafirma.pl</a>
+                </span>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    </div>
+</footer>
+
+</html>
