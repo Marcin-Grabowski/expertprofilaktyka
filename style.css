@@ -296,6 +296,7 @@ section.about-us-container {
     align-self: stretch;
 } */
 
+
 section.slider-container {
     display: flex;
     padding: var(--Spacing-3-rem, 48px) var(--Spacing-10-rem, 160px);
@@ -305,11 +306,21 @@ section.slider-container {
     align-self: stretch;
     text-align: center;
 
+
+
+
     .slider-box {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: var(--spacing-15-rem, 24px);
+        align-self: stretch;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         align-self: stretch;
     }
 
@@ -496,6 +507,7 @@ address {
 }
 
 .contact-form {
+    /* display: flexbox; */
     background-color: aquamarine;
     flex-direction: column;
     align-items: flex-start;
@@ -503,26 +515,31 @@ address {
     flex: 1 0;
     height: fit-content;
 
+
     div {
         display: flex;
-        /* align-items: flex-start; */
+        align-items: flex-start;
         gap: var(--spacing-15-rem, 24px);
         align-self: stretch;
+        background-color: #007D1B;
     }
 
     input {
+        font-family: Poppins;
         display: flex;
         height: var(--Spacing-3-rem, 48px);
         width: 100%;
-        padding: var(--spacing-075-rem, 12px);
+        padding-left: var(--spacing-075-rem, 12px);
         align-items: center;
         gap: var(--spacing-05-rem, 8px);
         align-self: stretch;
         border-radius: var(--Spacing-1rem, 16px);
         border: 1px solid var(--text-field-default, #000);
+
     }
 
     textarea {
+        font-family: Poppins;
         display: flex;
         width: 100%;
         height: var(--Spacing-6-rem, 96px);
@@ -533,13 +550,9 @@ address {
         border-radius: var(--spacing-05-rem, 8px);
         border: 1px solid var(--Textarea-default, #000);
         background: var(--Textarea-body, #FFF);
+
     }
 }
-
-
-
-
-
 
 
 
